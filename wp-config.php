@@ -79,9 +79,11 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
+define('WP_MEMORY_LIMIT', '512M');
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
