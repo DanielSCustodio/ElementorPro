@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to the OptinMonster plugin will be documented in this file.
 
+### 2.3.3 - 2021-05-12
+* Prevent autoloading WooCommerce classes. Fixes error when Jetpack is active while activating WooCommerce.
+
 ### 2.3.2 - 2021-05-05
 * Fixed an issue where the editor would not work in WordPress < 5.3.
 
